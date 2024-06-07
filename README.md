@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Outil pour une sélection optimale de la méthodologie de gestion de projet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Ce projet vise à fournir un outil permettant de sélectionner la méthodologie de gestion de projet la plus appropriée en fonction des caractéristiques spécifiques d'un projet donné. Cet outil est destiné à être utilisé par des individus, qu'ils soient débutants ou expérimentés, afin d'optimiser leurs chances de réussite en choisissant la bonne méthodologie dès le début.
 
-## Available Scripts
+## Fonctionnalités
+- Sélection de la méthodologie de gestion de projet en fonction des réponses à un formulaire.
+- Utilisation de technologies modernes pour créer une interface utilisateur réactive et dynamique.
+- Base de données flexible pour stocker les informations des utilisateurs et les résultats de la sélection.
 
-In the project directory, you can run:
+## Technologies Utilisées
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Base de données: MongoDB
 
-### `npm start`
+## Prérequis
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
+- [Node.js](https://nodejs.org/en/download/) (version 14.x ou supérieure)
+- [npm](https://www.npmjs.com/get-npm) (version 6.x ou supérieure)
+- [MongoDB](https://www.mongodb.com/try/download/community) (version 4.x ou supérieure)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clonez le dépôt :
+    ```bash
+    git clone https://github.com/MarcVo00/selGestionApp.git
+    cd selGestionApp
+    ```
 
-### `npm test`
+2. Installez les dépendances pour le frontend et le backend :
+    ```bash
+    # Dans le répertoire racine du projet
+    cd frontend
+    npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    cd ../backend
+    npm install
+    ```
 
-### `npm run build`
+3. Configurez les variables d'environnement :
+    Créez un fichier `.env` dans le répertoire `backend` et ajoutez-y les variables suivantes :
+    ```env
+    PORT=5000
+    MONGO_URI=votre_url_mongodb
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Déploiement en Local
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Démarrez MongoDB :
+    ```bash
+    mongod
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Démarrez le serveur backend :
+    ```bash
+    cd backend
+    npm start
+    ```
 
-### `npm run eject`
+3. Démarrez le serveur frontend :
+    ```bash
+    cd ../frontend
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Ouvrez votre navigateur et accédez à `http://localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

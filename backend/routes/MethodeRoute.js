@@ -1,7 +1,7 @@
 // backend/routes/methodologies.js
 const express = require('express');
 const router = express.Router();
-const Methodology = require('../models/Methodology');  // Check this path is correct as per your structure
+const Methodology = require('../models/MethodologyModel');  // Check this path is correct as per your structure
 
 router.get('/', async (req, res) => {
     try {

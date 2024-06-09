@@ -1,0 +1,6 @@
+nom;descriptionCourte;descriptionLongue;délai;tailleEquipe;complexite;budget;culture;implicationClient;informatique;marketing;construction;Education
+Agile;Approche flexible et adaptative;Approche flexible, adaptative et collaborative intégrant des retours et des tests pour ajuster le produit.;court;petit;complexe;serré;flexible;forte;True;True;False;True
+Traditionnelle;Approche linéaire et séquentielle;Approche linéaire et séquentielle avec des phases bien définies, chaque phase devant être achevée avant de passer à la suivante.;long;grand;simple;large;stricte;faible;False;False;True;False
+Hybride;Combinaison de méthodes traditionnelles et agiles;Combinaison de méthodes traditionnelles et agiles, offrant une structure flexible et adaptable.;court;petit;complexe;serré;flexible;forte;True;True;False;True
+Lean Management;Maximiser la valeur en réduisant les gaspillages;Méthode visant à maximiser la valeur pour le client en minimisant les gaspillages, basée sur l'amélioration continue.;long;grand;complexe;serré;flexible;faible;False;True;True;True
+AWP;Planification détaillée pour les projets de construction complexes;Méthode de conception et de planification pour les projets de construction complexes, utilisant des paquets de travail définis.;long;grand;complexe;large;stricte;faible;False;False;True;False

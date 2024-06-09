@@ -5,9 +5,10 @@ export default function FormComponent() {
     const [projectDetails, setProjectDetails] = useState({
         domain: '',
         complexite: '',
-        delai: '',
         budget: '',
-        tailleEquipe: ''
+        tailleEquipe: '',
+        implicationClient: '',
+        culture: ''
     });
 
     const navigate = useNavigate();
@@ -38,10 +39,6 @@ export default function FormComponent() {
             { value: 'complexe', label: 'Complexe' },
             { value: 'simple', label: 'Simple' }
         ],
-        delai: [
-            { value: 'court', label: 'Court' },
-            { value: 'long', label: 'Long' }
-        ],
         budget: [
             { value: 'serré', label: 'Serré' },
             { value: 'large', label: 'Large' }
@@ -49,6 +46,14 @@ export default function FormComponent() {
         tailleEquipe: [
             { value: 'petit', label: 'Petit' },
             { value: 'grand', label: 'Grand' }
+        ],
+        implicationClient: [
+            { value: 'forte', label: 'Forte' },
+            { value: 'faible', label: 'Faible' }
+        ],
+        culture: [
+            { value: 'flexible', label: 'Flexible' },
+            { value: 'stricte', label: 'Stricte' }
         ]
     };
 
@@ -77,17 +82,6 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Délai:
-                <select name="delai" value={projectDetails.delai} onChange={handleChange}>
-                    <option value="">Sélectionnez le délai</option>
-                    {dropdownOptions.delai.map(option => (
-                        <option key={option.value} value={option.value}>
-                            {option.label}
-                        </option>
-                    ))}
-                </select>
-            </label>
-            <label>
                 Budget:
                 <select name="budget" value={projectDetails.budget} onChange={handleChange}>
                     <option value="">Sélectionnez le budget</option>
@@ -103,6 +97,28 @@ export default function FormComponent() {
                 <select name="tailleEquipe" value={projectDetails.tailleEquipe} onChange={handleChange}>
                     <option value="">Sélectionnez la taille de l'équipe</option>
                     {dropdownOptions.tailleEquipe.map(option => (
+                        <option key={option.value} value={option.value}>
+                            {option.label}
+                        </option>
+                    ))}
+                </select>
+            </label>
+            <label>
+                Implication du client:
+                <select name="implicationClient" value={projectDetails.implicationClient} onChange={handleChange}>
+                    <option value="">Sélectionnez l'implication du client</option>
+                    {dropdownOptions.implicationClient.map(option => (
+                        <option key={option.value} value={option.value}>
+                            {option.label}
+                        </option>
+                    ))}
+                </select>
+            </label>
+            <label>
+                Culture d'entreprise:
+                <select name="culture" value={projectDetails.culture} onChange={handleChange}>
+                    <option value="">Sélectionnez la culture</option>
+                    {dropdownOptions.culture.map(option => (
                         <option key={option.value} value={option.value}>
                             {option.label}
                         </option>

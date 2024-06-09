@@ -18,23 +18,24 @@ export default function MethodologieChoices() {
 
                 // Filter methodologies based on form data
                 const filteredMethodologies = data.filter(methodology => {
-                    const matchesDelai = !projectDetails.delai || methodology.delai == projectDetails.delai;
-                    const matchesTailleEquipe = !projectDetails.tailleEquipe || methodology.tailleEquipe == projectDetails.tailleEquipe;
-                    const matchesComplexite = !projectDetails.complexite || methodology.complexite == projectDetails.complexite;
-                    const matchesBudget = !projectDetails.budget || methodology.budget == projectDetails.budget;
+                    const matchesTailleEquipe = !projectDetails.tailleEquipe || methodology.tailleEquipe === projectDetails.tailleEquipe;
+                    const matchesComplexite = !projectDetails.complexite || methodology.complexite === projectDetails.complexite;
+                    const matchesBudget = !projectDetails.budget || methodology.budget === projectDetails.budget;
+                    const matchesImplicationClient = !projectDetails.implicationClient || methodology.implicationClient === projectDetails.implicationClient;
+                    const matchesCulture = !projectDetails.culture || methodology.culture === projectDetails.culture;
                     const matchesDomain = !projectDetails.domain ||
-                        (projectDetails.domain == 'other' ||
-                        (projectDetails.domain == 'informatique' && methodology.informatique) ||
-                        (projectDetails.domain == 'marketing' && methodology.marketing) ||
-                        (projectDetails.domain == 'construction' && methodology.construction) ||
-                        (projectDetails.domain == 'education' && methodology.education));
+                        (projectDetails.domain === 'other' ||
+                        (projectDetails.domain === 'informatique' && methodology.informatique) ||
+                        (projectDetails.domain === 'marketing' && methodology.marketing) ||
+                        (projectDetails.domain === 'construction' && methodology.construction) ||
+                        (projectDetails.domain === 'education' && methodology.education));
 
-                    return matchesDelai && matchesTailleEquipe && matchesComplexite && matchesBudget && matchesDomain;
+                    return matchesTailleEquipe && matchesComplexite && matchesBudget && matchesImplicationClient && matchesCulture && matchesDomain;
                 });
 
                 setMethodologies(filteredMethodologies);
             } catch (error) {
-                console.error('Error fetching data: ', error);
+                console.error('Error fetching data:', error);
             }
         };
 
@@ -42,10 +43,9 @@ export default function MethodologieChoices() {
     }, [projectDetails]);
 
     const handleClick = (methodology) => {
-        console.log('Methodology clicked:', methodology._id);
-        console.log('Navigating to:', `/suggestions/${methodology._id}`)
-        navigate(`/suggestions/${methodology._id}`);
+        navigate(`/suggestions/${methodology.nom}`);
     };
+    
 
     return (
         <div className="methodology-suggestions">
@@ -69,3 +69,4 @@ export default function MethodologieChoices() {
         </div>
     );
 }
+

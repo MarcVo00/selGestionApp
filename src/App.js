@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/form"  element={<FormComponent/>} />
           <Route path="/suggestions" element={<MethodologySuggestionComponent/>} />
-          <Route path="/suggestions/:idMethodology" element={<ResultComponent />} />
+          <Route path="/suggestions/:nomMethodology" element={<ResultComponent />} />
           </Routes>
       </div>
     </Router>

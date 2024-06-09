@@ -6,7 +6,6 @@ const methodologySchema = new mongoose.Schema({
     nom: { type: String, required: true },
     descriptionCourte: String,
     descriptionLongue: String,
-    délai: String,
     tailleEquipe: String,
     complexite: String,
     budget: String,

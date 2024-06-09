@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 export default function ResultComponent() {
-    const { idMethodology } = useParams();
+    const { nomMethodology } = useParams();
     const [methodology, setMethodology] = useState(null);
 
     useEffect(() => {
         const fetchMethodology = async () => {
             try {
-                console.log('Fetching methodology data for id:', idMethodology);
-                const response = await axios.get(`http://localhost:5000/api/methodologies/${idMethodology}`);
+                console.log('Fetching methodology data for id:', nomMethodology);
+                const response = await axios.get(`http://localhost:5000/api/methodologies/${nomMethodology}`);
                 setMethodology(response.data);
             } catch (error) {
                 console.error('Error fetching methodology data:', error);
@@ -18,7 +18,7 @@ export default function ResultComponent() {
         };
 
         fetchMethodology();
-    }, [idMethodology]);
+    }, [nomMethodology]);
 
     if (!methodology) {
         return <div>Loading...</div>;

@@ -12,9 +12,9 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:_id', async (req, res) => {
+router.get('/:nom', async (req, res) => {
     try {
-        const methodology = await Methodology.findById(req.params._id);
+        const methodology = await Methodology.findOne({ nom: req.params.nom })
         res.json(methodology);
     } catch (err) {
         res.status(500).json({ error: err.message });

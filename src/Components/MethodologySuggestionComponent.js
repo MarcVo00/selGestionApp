@@ -26,7 +26,7 @@ export default function MethodologieChoices() {
             <ul>
                 {methodologies.map((methodology) => (
                     <li key={methodology._id}>
-                        <strong>{methodology.name}</strong> - {methodology.description}
+                        <strong>{methodology.nom}</strong> - {methodology.descriptionCourte}
                     </li>
                 ))}
             </ul>

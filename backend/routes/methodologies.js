@@ -12,4 +12,13 @@ router.get('/', async (req, res) => {
     }
 });
 
+router.get('/:_id', async (req, res) => {
+    try {
+        const methodology = await Methodology.findById(req.params._id);
+        res.json(methodology);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
 module.exports = router;

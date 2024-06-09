@@ -13,8 +13,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/form"  element={<FormComponent/>} />
           <Route path="/suggestions" element={<MethodologySuggestionComponent/>} />
-          <Route path="/results" element={<ResultComponent/>} />
-        </Routes>
+          <Route path="/suggestions/:idMethodology" element={<ResultComponent />} />
+          </Routes>
       </div>
     </Router>
   );

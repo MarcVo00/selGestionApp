@@ -54,7 +54,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 2. Démarrez le serveur backend :
     ```bash
     cd backend
-    npm start
+    node index.js
     ```
 
 3. Démarrez le serveur frontend :

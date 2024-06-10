@@ -14,6 +14,7 @@ function App() {
           <Route path="/form"  element={<FormComponent/>} />
           <Route path="/suggestions" element={<MethodologySuggestionComponent/>} />
           <Route path="/suggestions/:nomMethodology" element={<ResultComponent />} />
+          <Route path="/suggestions/:nomMethodology/:nomMethode" element={<ResultComponent />} />
           </Routes>
       </div>
     </Router>

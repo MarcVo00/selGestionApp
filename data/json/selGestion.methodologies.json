@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6665eca0d61cf15498b2650a"
+  },
+  "nom": "Agile",
+  "descriptionCourte": "Approche flexible et adaptative",
+  "descriptionLongue": "Approche flexible, adaptative et collaborative intégrant des retours et des tests pour ajuster le produit.",
+  "délai": "court",
+  "tailleEquipe": "petit",
+  "complexite": "complexe",
+  "budget": "serré",
+  "culture": "flexible",
+  "implicationClient": "forte",
+  "informatique": true,
+  "marketing": true,
+  "construction": false,
+  "education": true
+},
+{
+  "_id": {
+    "$oid": "6665eca0d61cf15498b2650b"
+  },
+  "nom": "Traditionnelle",
+  "descriptionCourte": "Approche linéaire et séquentielle",
+  "descriptionLongue": "Approche linéaire et séquentielle avec des phases bien définies, chaque phase devant être achevée avant de passer à la suivante.",
+  "délai": "long",
+  "tailleEquipe": "grand",
+  "complexite": "simple",
+  "budget": "large",
+  "culture": "stricte",
+  "implicationClient": "faible",
+  "informatique": false,
+  "marketing": false,
+  "construction": true,
+  "education": false
+},
+{
+  "_id": {
+    "$oid": "6665eca0d61cf15498b2650c"
+  },
+  "nom": "Hybride",
+  "descriptionCourte": "Combinaison de méthodes traditionnelles et agiles",
+  "descriptionLongue": "Combinaison de méthodes traditionnelles et agiles, offrant une structure flexible et adaptable.",
+  "délai": "court",
+  "tailleEquipe": "petit",
+  "complexite": "complexe",
+  "budget": "serré",
+  "culture": "flexible",
+  "implicationClient": "forte",
+  "informatique": true,
+  "marketing": true,
+  "construction": false,
+  "education": true
+},
+{
+  "_id": {
+    "$oid": "6665eca0d61cf15498b2650d"
+  },
+  "nom": "Lean Management",
+  "descriptionCourte": "Maximiser la valeur en réduisant les gaspillages",
+  "descriptionLongue": "Méthode visant à maximiser la valeur pour le client en minimisant les gaspillages, basée sur l'amélioration continue.",
+  "délai": "long",
+  "tailleEquipe": "grand",
+  "complexite": "complexe",
+  "budget": "serré",
+  "culture": "flexible",
+  "implicationClient": "faible",
+  "informatique": false,
+  "marketing": true,
+  "construction": true,
+  "education": true
+},
+{
+  "_id": {
+    "$oid": "6665eca0d61cf15498b2650e"
+  },
+  "nom": "AWP",
+  "descriptionCourte": "Planification détaillée pour les projets de construction complexes",
+  "descriptionLongue": "Méthode de conception et de planification pour les projets de construction complexes, utilisant des paquets de travail définis.",
+  "délai": "long",
+  "tailleEquipe": "grand",
+  "complexite": "complexe",
+  "budget": "large",
+  "culture": "stricte",
+  "implicationClient": "faible",
+  "informatique": false,
+  "marketing": false,
+  "construction": true,
+  "education": false
+}]

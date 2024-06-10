@@ -45,18 +45,17 @@ export default function MethodologieChoices() {
     const handleClick = (methodology) => {
         navigate(`/suggestions/${methodology.nom}`);
     };
-    
 
     return (
         <div className="methodology-suggestions">
-            <h2>Methodologies</h2>
+            <h1 className="methodology-title">Methodologies</h1>
+            <p>Dépendant des détails de votre projet, Voici les méthodologies qui pourrait être intéressante pour vous:</p>
             <div className="methodology-grid">
                 {methodologies.map((methodology) => (
                     <div
                         key={methodology._id}
                         className="methodology-container"
                         onClick={() => handleClick(methodology)}
-                        style={{ cursor: 'pointer' }}
                     >
                         <div className="methodology-icon">
                             <img src={`${process.env.PUBLIC_URL}/icon.png`} alt="Icon" />
@@ -69,4 +68,3 @@ export default function MethodologieChoices() {
         </div>
     );
 }
-

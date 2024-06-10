@@ -15,6 +15,7 @@ const methodologySchema = new mongoose.Schema({
     marketing: Boolean,
     construction: Boolean,
     Education: Boolean,
+    methodes: [String],
 });
 
 module.exports = mongoose.model('Methodology', methodologySchema);

@@ -7,6 +7,8 @@ const dotenv = require('dotenv');
 // Import routes
 const methodologiesRouter = require('./routes/MethodologiesRoute');  // Ensure you have this file set up
 const methodeRouter = require('./routes/MethodeRoute');  // Ensure you have this file set up
+const outilsRouter = require('./routes/OutilsRoute');  // Ensure you have this file set up
+
 // Load environment variables
 dotenv.config();
 
@@ -27,7 +29,8 @@ app.use(express.json()); // Parse JSON bodies
 
 // Use routes
 app.use('/api/methodologies', methodologiesRouter);
-app.use('/api/methode', methodeRouter);
+app.use('/api/methodes', methodeRouter);
+app.use('/api/outils', outilsRouter);
 
 // Home route for simple testing
 app.get('/', (req, res) => {

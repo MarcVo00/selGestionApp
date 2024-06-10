@@ -1,0 +1,179 @@
+[
+    {
+        "nom": "Trello",
+        "url": "https://trello.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Trello est un outil de gestion de projet visuel basé sur les principes d'un tableau Kanban. Il permet aux équipes de gérer tout type de projet, workflow ou tâche en utilisant des tableaux, des listes et des cartes pour organiser le travail. Les cartes peuvent contenir des fichiers, des checklists, des dates limites et des commentaires, ce qui facilite la collaboration et le suivi des tâches. Trello est flexible et peut être utilisé pour des projets personnels ou par des équipes de toutes tailles."
+    },
+    {
+        "nom": "Jira",
+        "url": "https://www.atlassian.com/software/jira",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Jira est un outil de gestion de projet agile qui permet aux équipes de suivre les problèmes, de gérer les projets et de collaborer efficacement. Conçu principalement pour le développement de logiciels, Jira offre des tableaux Kanban et Scrum pour visualiser le travail en cours. Il intègre également des fonctionnalités de reporting et d'automatisation pour améliorer la productivité et le suivi des projets."
+    },
+    {
+        "nom": "Asana",
+        "url": "https://asana.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Asana est une plateforme de gestion de projet qui aide les équipes à organiser, suivre et gérer leur travail. Elle propose des vues en liste, tableau et calendrier pour faciliter la gestion des tâches et des projets. Asana permet également de définir des responsabilités, des échéances, et de suivre les progrès grâce à des tableaux de bord et des rapports personnalisés."
+    },
+    {
+        "nom": "Microsoft Project",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/project",
+        "payant": true,
+        "methodes": ["Waterfall", "CPM"],
+        "descriptionLongue": "Microsoft Project est un logiciel de gestion de projet robuste utilisé pour planifier, exécuter et suivre les projets. Il supporte les méthodes Waterfall et CPM, offrant des fonctionnalités de planification détaillées, de gestion des ressources et de suivi des progrès avec des diagrammes de Gantt et des outils de reporting avancés."
+    },
+    {
+        "nom": "Smartsheet",
+        "url": "https://www.smartsheet.com",
+        "payant": true,
+        "methodes": ["Waterfall", "CPM", "PERT"],
+        "descriptionLongue": "Smartsheet est une plateforme de gestion de projet flexible qui combine la facilité d'utilisation d'une feuille de calcul avec des outils de gestion de projet. Elle permet de gérer les tâches, les projets et les processus à travers des feuilles de calcul, des diagrammes de Gantt, et des rapports en temps réel, facilitant la collaboration et le suivi des progrès."
+    },
+    {
+        "nom": "Wrike",
+        "url": "https://www.wrike.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum", "CPM"],
+        "descriptionLongue": "Wrike est un outil de gestion de projet collaboratif qui offre des fonctionnalités complètes pour la planification, le suivi et la collaboration en équipe. Il supporte les méthodes Kanban, Scrum, et CPM, permettant une gestion flexible des tâches et une visibilité complète sur les progrès du projet grâce à des tableaux de bord et des rapports personnalisés."
+    },
+    {
+        "nom": "Monday.com",
+        "url": "https://monday.com",
+        "payant": true,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Monday.com est une plateforme de gestion de projet visuelle qui permet aux équipes de planifier, suivre et livrer leur travail de manière collaborative. Elle offre des vues multiples, des tableaux de bord personnalisables et des automatisations pour améliorer l'efficacité et la collaboration."
+    },
+    {
+        "nom": "Notion",
+        "url": "https://www.notion.so",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Notion est un outil de productivité tout-en-un qui offre des fonctionnalités de prise de notes, de gestion de projet, de base de données et de collaboration. Il permet aux équipes de créer des tableaux Kanban pour visualiser les tâches, d'utiliser des bases de données pour organiser l'information et de collaborer en temps réel sur des documents partagés."
+    },
+    {
+        "nom": "Projektron BCS",
+        "url": "https://www.projektron.de",
+        "payant": true,
+        "methodes": ["HERMES"],
+        "descriptionLongue": "Projektron BCS est un logiciel de gestion de projet professionnel qui soutient la méthode HERMES et offre des fonctionnalités complètes pour la planification, le suivi et le reporting. Il permet de gérer les projets de manière structurée en définissant des phases, des jalons et des tâches, tout en offrant des outils de collaboration et de gestion des ressources."
+    },
+    {
+        "nom": "ClickUp",
+        "url": "https://clickup.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "ClickUp est une plateforme de gestion de projet flexible qui offre une large gamme de fonctionnalités pour la gestion des tâches, la collaboration et le suivi des projets. Elle permet aux équipes d'utiliser des tableaux Kanban et Scrum, de définir des objectifs, de suivre les progrès et d'automatiser les tâches répétitives pour améliorer la productivité."
+    },
+    {
+        "nom": "Airtable",
+        "url": "https://airtable.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Airtable combine la simplicité d'une feuille de calcul avec des fonctionnalités de base de données pour une gestion flexible et collaborative des projets. Il permet aux équipes de créer des tableaux Kanban, de gérer les tâches et les informations de manière structurée, et de collaborer en temps réel sur des projets complexes."
+    },
+    {
+        "nom": "Teamwork",
+        "url": "https://teamwork.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Teamwork est un outil de gestion de projet complet qui facilite la planification, le suivi des progrès, et la collaboration en temps réel. Il supporte les méthodes Kanban et Scrum, offrant des fonctionnalités avancées pour la gestion des tâches, des ressources et des délais, tout en permettant une communication fluide entre les membres de l'équipe."
+    },
+    {
+        "nom": "Zoho Projects",
+        "url": "https://zoho.com/projects",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Zoho Projects est une solution de gestion de projet en ligne qui offre des fonctionnalités robustes pour la planification, le suivi et la collaboration. Il permet de créer des tableaux Kanban, de suivre les progrès des tâches, de gérer les ressources et de collaborer en temps réel avec les membres de l'équipe grâce à des outils de communication intégrés."
+    },
+    {
+        "nom": "Height",
+        "url": "https://height.app",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Height est une plateforme de gestion de projet moderne qui offre des fonctionnalités avancées comme l'automatisation des tâches, la gestion des risques et la collaboration en temps réel. Elle supporte les méthodes Kanban et Scrum, permettant aux équipes de gérer les projets de manière proactive et efficace."
+    },
+    {
+        "nom": "Freedcamp",
+        "url": "https://freedcamp.com",
+        "payant": false,
+        "methodes": ["Kanban", "Scrum"],
+        "descriptionLongue": "Freedcamp est un système de gestion de projet en ligne riche en fonctionnalités qui offre un stockage illimité et permet la gestion de tout nombre de projets pour toute l'équipe gratuitement. Il intègre des fonctionnalités essentielles telles que la gestion des tâches avec priorités et dates d'échéance, la gestion de calendrier, le téléchargement de fichiers, les discussions de groupe, le suivi du temps et les jalons. Freedcamp propose également des fonctionnalités premium à un coût réduit, comme le suivi des problèmes, la gestion des factures et l'intégration avec Google Drive, Dropbox et OneDrive. Ce logiciel est très apprécié pour sa flexibilité et son adaptabilité à différents flux de travail de gestion de projet."
+    },
+    {
+        "nom": "Oracle Primavera",
+        "url": "https://www.oracle.com/primavera",
+        "payant": true,
+        "methodes": ["CPM"],
+        "descriptionLongue": "Oracle Primavera est une solution de gestion de projet destinée aux grandes entreprises, utilisée pour planifier, gérer et exécuter des projets complexes. Elle est particulièrement adaptée pour la méthode de chemin critique (CPM) et offre des fonctionnalités robustes de planification, de gestion des ressources, de suivi des progrès et de reporting avancé. Primavera aide à optimiser les processus de gestion de projet en fournissant une visibilité complète et des outils d'analyse détaillés pour prendre des décisions éclairées."
+    },
+    {
+        "nom": "Lucidchart",
+        "url": "https://www.lucidchart.com",
+        "payant": false,
+        "methodes": ["PERT"],
+        "descriptionLongue": "Lucidchart est un outil de création de diagrammes en ligne qui prend en charge les diagrammes PERT, permettant une visualisation claire et collaborative des projets. Il est largement utilisé pour planifier, organiser et coordonner les tâches dans des projets complexes. Lucidchart offre une interface intuitive et des fonctionnalités collaboratives, ce qui facilite l'élaboration et la gestion des diagrammes de projet avec des équipes dispersées géographiquement."
+    },
+    {
+        "nom": "SmartDraw",
+        "url": "https://www.smartdraw.com",
+        "payant": true,
+        "methodes": ["PERT"],
+        "descriptionLongue": "SmartDraw est un outil de création de diagrammes qui prend en charge les diagrammes PERT et offre des fonctionnalités avancées pour la gestion de projet. Il permet de créer des diagrammes de haute qualité pour planifier et suivre les tâches et les étapes des projets. SmartDraw est utilisé pour sa facilité d'utilisation et ses capacités d'intégration avec d'autres outils de productivité tels que Microsoft Office, Google Workspace et plus encore."
+    },
+    {
+        "nom": "Blue Ant",
+        "url": "https://www.blue-ant.de",
+        "payant": true,
+        "methodes": ["HERMES"],
+        "descriptionLongue": "Blue Ant est un logiciel de gestion de projet qui prend en charge la méthode HERMES et offre des fonctionnalités complètes pour la planification et le suivi des projets. Il permet une gestion structurée des projets avec des phases définies, des jalons et des tâches, tout en fournissant des outils pour la collaboration et la gestion des ressources. Blue Ant est particulièrement apprécié pour sa flexibilité et sa capacité à s'adapter à divers types de projets."
+    },
+    {
+        "nom": "LeanKit",
+        "url": "https://leankit.com",
+        "payant": true,
+        "methodes": ["Lean Management", "Kanban"],
+        "descriptionLongue": "LeanKit est un outil de gestion de projet Lean qui utilise des tableaux Kanban pour visualiser et améliorer les flux de travail. Il permet aux équipes de suivre et de gérer les tâches en temps réel, en identifiant les goulots d'étranglement et en optimisant les processus. LeanKit est utilisé pour améliorer l'efficacité opérationnelle et la collaboration entre les membres de l'équipe grâce à des visualisations claires et des fonctionnalités de reporting avancées."
+    },
+    {
+        "nom": "Kanbanize",
+        "url": "https://kanbanize.com",
+        "payant": true,
+        "methodes": ["Lean Management", "Kanban"],
+        "descriptionLongue": "Kanbanize est une plateforme de gestion de projet Lean qui utilise des tableaux Kanban et offre des fonctionnalités avancées pour la gestion des tâches. Il permet de visualiser les flux de travail, de suivre les progrès des projets et d'identifier les opportunités d'amélioration continue. Kanbanize est apprécié pour sa flexibilité et ses capacités d'intégration avec d'autres outils de gestion de projet et de productivité."
+    },
+    {
+        "nom": "Procore",
+        "url": "https://www.procore.com",
+        "payant": true,
+        "methodes": ["Lean Construction"],
+        "descriptionLongue": "Procore est une plateforme de gestion de projet pour la construction, offrant des outils pour la planification, le suivi et la collaboration sur les chantiers. Elle permet de gérer les projets de construction de manière efficace en fournissant une visibilité complète sur les processus, les coûts et les délais. Procore est utilisé par les équipes de construction pour améliorer la communication et la coordination des travaux sur le terrain."
+    },
+    {
+        "nom": "Buildertrend",
+        "url": "https://www.buildertrend.com",
+        "payant": true,
+        "methodes": ["Lean Construction"],
+        "descriptionLongue": "Buildertrend est un logiciel de gestion de projet pour la construction qui offre des fonctionnalités pour la planification, le suivi et la communication sur les projets. Il permet aux entrepreneurs et aux équipes de suivre les progrès des chantiers, de gérer les budgets et les ressources, et de collaborer en temps réel grâce à des outils de communication intégrés."
+    },
+    {
+        "nom": "Hexagon PPM",
+        "url": "https://hexagonppm.com",
+        "payant": true,
+        "methodes": ["AWP"],
+        "descriptionLongue": "Hexagon PPM est une solution de gestion de projet pour les projets industriels complexes, supportant la méthode AWP pour une planification et une exécution efficaces. Elle offre des fonctionnalités avancées pour la gestion des ressources, la planification des tâches et le suivi des progrès, permettant aux équipes de projets industriels de gérer les risques et d'améliorer la performance globale des projets."
+    },
+    {
+        "nom": "InEight",
+        "url": "https://ineight.com",
+        "payant": true,
+        "methodes": ["AWP"],
+        "descriptionLongue": "InEight est un logiciel de gestion de projet pour la construction et l'ingénierie, offrant des fonctionnalités complètes pour la planification et l'exécution des projets. Il permet de gérer les coûts, les délais et les risques, tout en fournissant des outils de collaboration et de reporting pour améliorer la performance des projets et la satisfaction des clients."
+    }
+]
+    
+    

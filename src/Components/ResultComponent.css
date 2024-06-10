@@ -1,11 +1,10 @@
-/* Add these styles to ResultComponent.css */
 .result-container {
-    border: 1px solid #444;
+    border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-    background-color: #333;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
     width: 200px;
     text-align: center;
     display: flex;
@@ -15,7 +14,7 @@
 }
 
 .result-container:hover {
-    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.2);
 }
 
 .result-icon img {
@@ -26,9 +25,8 @@
 
 .result-suggestions {
     display: flex;
-    flex-direction: row; /* Display items in a row */
-    flex-wrap: wrap; /* Wrap items to the next line if they overflow */
-    color: #ffffff;
-    margin-top: 20px; /* Add margin-top to separate from the title */
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #333;
+    margin-top: 20px;
 }
-

@@ -58,7 +58,7 @@ export default function MethodologieChoices() {
                         onClick={() => handleClick(methodology)}
                     >
                         <div className="methodology-icon">
-                            <img src={`${process.env.PUBLIC_URL}/icon.png`} alt="Icon" />
+                            <img src={`${process.env.PUBLIC_URL}/${methodology.img_url}`} alt="Icon" />
                         </div>
                         <strong>{methodology.nom}</strong>
                         <p>{methodology.descriptionCourte}</p>

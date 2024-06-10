@@ -9,6 +9,7 @@ const methodeSchema = new mongoose.Schema({
     descriptionLongue: String,
     outils: String,
     outils_nom: [String],
+    img_url: String,
 
 });
 

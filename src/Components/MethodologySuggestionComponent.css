@@ -1,15 +1,15 @@
 .methodology-suggestions {
   text-align: center;
-  color: #ffffff; /* White text */
+  color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .methodology-title {
-  text-align: center; /* Center the title */
-  color: #ffffff; /* White text */
-  margin: 20px 0; /* Add margin for spacing */
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
 }
 
 .methodology-grid {
@@ -20,12 +20,12 @@
 }
 
 .methodology-container {
-  border: 1px solid #444; /* Darker border */
+  border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5); /* Darker shadow */
-  background-color: #333; /* Dark background */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   width: 200px;
   text-align: center;
   display: flex;
@@ -35,7 +35,7 @@
 }
 
 .methodology-container:hover {
-  box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.2);
 }
 
 .methodology-icon img {
@@ -52,5 +52,5 @@ strong {
 
 p {
   font-size: 0.9em;
-  color: #bbb; /* Light gray text for description */
+  color: #666;
 }

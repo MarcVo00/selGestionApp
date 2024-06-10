@@ -43,7 +43,7 @@ export default function ResultComponent() {
                         onClick={() => handleClick(methodology.nom,methode)}
                     >
                         <div className="result-icon">
-                            <img src={`${process.env.PUBLIC_URL}/favicon.ico`} alt="Icon" />
+                            <img src={`${process.env.PUBLIC_URL}/${methode.img_url}`} alt="Icon" />
                         </div>
                         <strong>{methode}</strong>
                     </div>

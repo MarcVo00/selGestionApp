@@ -16,6 +16,7 @@ const methodologySchema = new mongoose.Schema({
     construction: Boolean,
     Education: Boolean,
     methodes: [String],
+    img_url: String,
 });
 
 module.exports = mongoose.model('Methodology', methodologySchema);

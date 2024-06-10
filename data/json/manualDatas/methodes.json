@@ -1,207 +1,241 @@
-[
-    {
-      "nom": "Kanban",
-      "descriptionCourte": "Méthode Agile se concentrant sur la visualisation du flux de travail.",
-      "descriptionLongue": "Kanban se concentre sur la visualisation du flux de travail à travers un tableau Kanban avec des colonnes représentant les différentes étapes du workflow du projet.",
-      "outils": "Tableau Kanban",
-      "avantages": [
-        "Visibilité élevée",
-        "limitation des tâches en cours pour éviter le surmenage"
-      ],
-      "desavantages": [
-        "Scalabilité limitée",
-        "complexité accrue avec des grandes équipes"
-      ],
-      "methodologie": "Agile",
-      "outils_nom": [
-        "Trello",
-        "Jira",
-        "Asana",
-        "Wrike",
-        "Monday.com",
-        "Notion",
-        "ClickUp",
-        "Airtable",
-        "Teamwork",
-        "Zoho Projects",
-        "Height",
-        "Freedcamp",
-        "LeanKit",
-        "Kanbanize"
-      ]
-    },
-    {
-      "nom": "Scrum",
-      "descriptionCourte": "Méthode Agile utilisant des cycles courts de développement appelés sprints.",
-      "descriptionLongue": "Scrum se base sur des cycles courts de développement appelés sprints qui durent entre 1 à 4 semaines, durant lesquels les équipes livrent des fonctionnalités logicielles.",
-      "outils": "Product Backlog, Sprint Backlog, outils de Scrum",
-      "avantages": [
-        "Cycles courts",
-        "bonne collaboration",
-        "réponse rapide aux changements"
-      ],
-      "desavantages": [
-        "Moins prévisible",
-        "nécessite une forte implication des parties prenantes"
-      ],
-      "methodologie": "Agile",
-      "outils_nom": [
-        "Trello",
-        "Jira",
-        "Asana",
-        "Wrike",
-        "Monday.com",
-        "Notion",
-        "ClickUp",
-        "Airtable",
-        "Teamwork",
-        "Zoho Projects",
-        "Height",
-        "Freedcamp"
-      ]
-    },
-    {
-      "nom": "Waterfall",
-      "descriptionCourte": "Approche linéaire et séquentielle de la gestion de projet.",
-      "descriptionLongue": "La méthode Waterfall est une méthode qui va se dérouler en plusieurs étapes successives. Tant qu'une étape n'est pas terminée, nous ne passons pas à la prochaine.",
-      "outils": "Documents de planification, diagrammes de Gantt",
-      "avantages": [
-        "Périmètre clair",
-        "documentation complète",
-        "mesure de progrès facile"
-      ],
-      "desavantages": [
-        "Flexibilité limitée",
-        "peu d'implication client",
-        "long cycle de développement"
-      ],
-      "methodologie": "Traditionelle",
-      "outils_nom": [
-        "Microsoft Project",
-        "Smartsheet"
-      ]
-    },
-    {
-      "nom": "CPM",
-      "descriptionCourte": "Méthode de chemin critique pour la gestion de projet.",
-      "descriptionLongue": "Cette méthode est appelée 'Critical Path Method' et se concentre sur l'identification et la gestion des tâches critiques pour déterminer la durée minimale du projet.",
-      "outils": "Diagramme CPM, outils de gestion de projet",
-      "avantages": [
-        "Efficacité accrue",
-        "meilleure planification",
-        "tâches critiques claires"
-      ],
-      "desavantages": [
-        "Nécessite une planification détaillée",
-        "complexité de gestion"
-      ],
-      "methodologie": "Traditionelle",
-      "outils_nom": [
-        "Microsoft Project",
-        "Smartsheet",
-        "Wrike",
-        "Oracle Primavera"
-      ]
-    },
-    {
-      "nom": "PERT",
-      "descriptionCourte": "Technique d'évaluation et d'examen des programmes.",
-      "descriptionLongue": "La méthode PERT (Program Evaluation and Review Technique) aide à planifier, organiser et coordonner les tâches en utilisant des techniques d'estimation du temps.",
-      "outils": "Diagramme PERT, outils d'estimation du temps",
-      "avantages": [
-        "Estimation flexible",
-        "meilleure gestion des risques"
-      ],
-      "desavantages": [
-        "Implémentation complexe",
-        "nécessite une planification détaillée"
-      ],
-      "methodologie": "Traditionelle",
-      "outils_nom": [
-        "Smartsheet",
-        "Lucidchart",
-        "SmartDraw"
-      ]
-    },
-    {
-      "nom": "HERMES",
-      "descriptionCourte": "Méthode de gestion de projet développée par l'État Suisse.",
-      "descriptionLongue": "HERMES est une méthode de gestion de projet développée par l'État Suisse, offrant une approche structurée avec des phases clairement définies et une forte flexibilité.",
-      "outils": "Modules HERMES, outils de gestion de projet",
-      "avantages": [
-        "Modularité",
-        "flexibilité",
-        "rôles bien définis",
-        "scénarios personnalisés"
-      ],
-      "desavantages": [
-        "Complexité de mise en œuvre",
-        "nécessite une bonne maîtrise des deux approches"
-      ],
-      "methodologie": "Hybride",
-      "outils_nom": [
-        "Projektron BCS",
-        "Blue Ant"
-      ]
-    },
-    {
-      "nom": "Lean Management",
-      "descriptionCourte": "Approche Lean visant à maximiser la valeur en réduisant les gaspillages.",
-      "descriptionLongue": "Le Lean Management se concentre sur l'amélioration continue, l'efficacité et l'élimination des activités sans valeur ajoutée pour maximiser la valeur pour le client.",
-      "outils": "Value Stream Mapping, outils Lean",
-      "avantages": [
-        "Efficacité",
-        "réduction des gaspillages",
-        "amélioration continue"
-      ],
-      "desavantages": [
-        "Implémentation complexe",
-        "nécessite une culture d'amélioration continue"
-      ],
-      "methodologie": "Lean Management",
-      "outils_nom": [
-        "LeanKit",
-        "Kanbanize"
-      ]
-    },
-    {
-      "nom": "Lean Construction",
-      "descriptionCourte": "Approche Lean appliquée à la construction.",
-      "descriptionLongue": "Lean Construction vise à maximiser l'efficacité et la qualité des processus de construction en réduisant les gaspillages et en améliorant la collaboration.",
-      "outils": "Planning chemin de fer, outils Lean",
-      "avantages": [
-        "Efficacité",
-        "réduction des gaspillages",
-        "meilleure communication"
-      ],
-      "desavantages": [
-        "Implémentation complexe",
-        "nécessite une gestion de projet rigoureuse"
-      ],
-      "methodologie": "Lean Management",
-      "outils_nom": [
-        "Procore",
-        "Buildertrend"
-      ]
-    },
-    {
-      "nom": "AWP",
-      "descriptionCourte": "Méthodologie innovante pour la gestion de projets de construction complexes.",
-      "descriptionLongue": "Advanced Work Packaging (AWP) se concentre sur la planification et l'exécution des projets en divisant ceux-ci en petits paquets de travail gérables et coordonnés.",
-      "outils": "Construction Work Packages, outils de planification",
-      "avantages": [
-        "Efficacité",
-        "réduction des gaspillages",
-        "meilleure communication"
-      ],
-      "desavantages": [
-        "Implémentation complexe",
-        "nécessite une gestion de projet rigoureuse"
-      ],
-      "methodologie": "Lean Management",
-      "outils_nom": [
-        "Hexagon PPM",
-        "InEight"
-      ]
-    }
-  ]
+[{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57803"
+  },
+  "nom": "Kanban",
+  "descriptionCourte": "Méthode Agile se concentrant sur la visualisation du flux de travail.",
+  "descriptionLongue": "Kanban se concentre sur la visualisation du flux de travail à travers un tableau Kanban avec des colonnes représentant les différentes étapes du workflow du projet.",
+  "outils": "Tableau Kanban",
+  "avantages": [
+    "Visibilité élevée",
+    "limitation des tâches en cours pour éviter le surmenage"
+  ],
+  "desavantages": [
+    "Scalabilité limitée",
+    "complexité accrue avec des grandes équipes"
+  ],
+  "methodologie": "Agile",
+  "outils_nom": [
+    "Trello",
+    "Jira",
+    "Asana",
+    "Wrike",
+    "Monday.com",
+    "Notion",
+    "ClickUp",
+    "Airtable",
+    "Teamwork",
+    "Zoho Projects",
+    "Height",
+    "Freedcamp",
+    "LeanKit",
+    "Kanbanize"
+  ],
+  "img_url": "methodes/Agile/kanban.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57804"
+  },
+  "nom": "Scrum",
+  "descriptionCourte": "Méthode Agile utilisant des cycles courts de développement appelés sprints.",
+  "descriptionLongue": "Scrum se base sur des cycles courts de développement appelés sprints qui durent entre 1 à 4 semaines, durant lesquels les équipes livrent des fonctionnalités logicielles.",
+  "outils": "Product Backlog, Sprint Backlog, outils de Scrum",
+  "avantages": [
+    "Cycles courts",
+    "bonne collaboration",
+    "réponse rapide aux changements"
+  ],
+  "desavantages": [
+    "Moins prévisible",
+    "nécessite une forte implication des parties prenantes"
+  ],
+  "methodologie": "Agile",
+  "outils_nom": [
+    "Trello",
+    "Jira",
+    "Asana",
+    "Wrike",
+    "Monday.com",
+    "Notion",
+    "ClickUp",
+    "Airtable",
+    "Teamwork",
+    "Zoho Projects",
+    "Height",
+    "Freedcamp"
+  ],
+  "img_url": "methodes/Agile/scrum.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57805"
+  },
+  "nom": "Waterfall",
+  "descriptionCourte": "Approche linéaire et séquentielle de la gestion de projet.",
+  "descriptionLongue": "La méthode Waterfall est une méthode qui va se dérouler en plusieurs étapes successives. Tant qu'une étape n'est pas terminée, nous ne passons pas à la prochaine.",
+  "outils": "Documents de planification, diagrammes de Gantt",
+  "avantages": [
+    "Périmètre clair",
+    "documentation complète",
+    "mesure de progrès facile"
+  ],
+  "desavantages": [
+    "Flexibilité limitée",
+    "peu d'implication client",
+    "long cycle de développement"
+  ],
+  "methodologie": "Traditionelle",
+  "outils_nom": [
+    "Microsoft Project",
+    "Smartsheet"
+  ],
+  "img_url": "methodes/Traditionelle/waterfall.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57806"
+  },
+  "nom": "CPM",
+  "descriptionCourte": "Méthode de chemin critique pour la gestion de projet.",
+  "descriptionLongue": "Cette méthode est appelée 'Critical Path Method' et se concentre sur l'identification et la gestion des tâches critiques pour déterminer la durée minimale du projet.",
+  "outils": "Diagramme CPM, outils de gestion de projet",
+  "avantages": [
+    "Efficacité accrue",
+    "meilleure planification",
+    "tâches critiques claires"
+  ],
+  "desavantages": [
+    "Nécessite une planification détaillée",
+    "complexité de gestion"
+  ],
+  "methodologie": "Traditionelle",
+  "outils_nom": [
+    "Microsoft Project",
+    "Smartsheet",
+    "Wrike",
+    "Oracle Primavera"
+  ],
+  "img_url": "methodes/Traditionelle/cpm.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57807"
+  },
+  "nom": "PERT",
+  "descriptionCourte": "Technique d'évaluation et d'examen des programmes.",
+  "descriptionLongue": "La méthode PERT (Program Evaluation and Review Technique) aide à planifier, organiser et coordonner les tâches en utilisant des techniques d'estimation du temps.",
+  "outils": "Diagramme PERT, outils d'estimation du temps",
+  "avantages": [
+    "Estimation flexible",
+    "meilleure gestion des risques"
+  ],
+  "desavantages": [
+    "Implémentation complexe",
+    "nécessite une planification détaillée"
+  ],
+  "methodologie": "Traditionelle",
+  "outils_nom": [
+    "Smartsheet",
+    "Lucidchart",
+    "SmartDraw"
+  ],
+  "img_url": "methodes/Traditionelle/pert.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57808"
+  },
+  "nom": "HERMES",
+  "descriptionCourte": "Méthode de gestion de projet développée par l'État Suisse.",
+  "descriptionLongue": "HERMES est une méthode de gestion de projet développée par l'État Suisse, offrant une approche structurée avec des phases clairement définies et une forte flexibilité.",
+  "outils": "Modules HERMES, outils de gestion de projet",
+  "avantages": [
+    "Modularité",
+    "flexibilité",
+    "rôles bien définis",
+    "scénarios personnalisés"
+  ],
+  "desavantages": [
+    "Complexité de mise en œuvre",
+    "nécessite une bonne maîtrise des deux approches"
+  ],
+  "methodologie": "Hybride",
+  "outils_nom": [
+    "Projektron BCS",
+    "Blue Ant"
+  ],
+  "img_url": "methodes/Hybride/hermes.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b57809"
+  },
+  "nom": "Lean Management",
+  "descriptionCourte": "Approche Lean visant à maximiser la valeur en réduisant les gaspillages.",
+  "descriptionLongue": "Le Lean Management se concentre sur l'amélioration continue, l'efficacité et l'élimination des activités sans valeur ajoutée pour maximiser la valeur pour le client.",
+  "outils": "Value Stream Mapping, outils Lean",
+  "avantages": [
+    "Efficacité",
+    "réduction des gaspillages",
+    "amélioration continue"
+  ],
+  "desavantages": [
+    "Implémentation complexe",
+    "nécessite une culture d'amélioration continue"
+  ],
+  "methodologie": "Lean Management",
+  "outils_nom": [
+    "LeanKit",
+    "Kanbanize"
+  ],
+  "img_url": "methodes/Lean/lean-management.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b5780a"
+  },
+  "nom": "Lean Construction",
+  "descriptionCourte": "Approche Lean appliquée à la construction.",
+  "descriptionLongue": "Lean Construction vise à maximiser l'efficacité et la qualité des processus de construction en réduisant les gaspillages et en améliorant la collaboration.",
+  "outils": "Planning chemin de fer, outils Lean",
+  "avantages": [
+    "Efficacité",
+    "réduction des gaspillages",
+    "meilleure communication"
+  ],
+  "desavantages": [
+    "Implémentation complexe",
+    "nécessite une gestion de projet rigoureuse"
+  ],
+  "methodologie": "Lean Management",
+  "outils_nom": [
+    "Procore",
+    "Buildertrend"
+  ],
+  "img_url": "methodes/Lean/lean-construction.png"
+},
+{
+  "_id": {
+    "$oid": "66670cd2c5198c1744b5780b"
+  },
+  "nom": "AWP",
+  "descriptionCourte": "Méthodologie innovante pour la gestion de projets de construction complexes.",
+  "descriptionLongue": "Advanced Work Packaging (AWP) se concentre sur la planification et l'exécution des projets en divisant ceux-ci en petits paquets de travail gérables et coordonnés.",
+  "outils": "Construction Work Packages, outils de planification",
+  "avantages": [
+    "Efficacité",
+    "réduction des gaspillages",
+    "meilleure communication"
+  ],
+  "desavantages": [
+    "Implémentation complexe",
+    "nécessite une gestion de projet rigoureuse"
+  ],
+  "methodologie": "Lean Management",
+  "outils_nom": [
+    "Hexagon PPM",
+    "InEight"
+  ],
+  "img_url": "methodes/Awp/awp.png"
+}]

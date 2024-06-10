@@ -60,7 +60,7 @@ export default function FormComponent() {
     return (
         <form onSubmit={handleSubmit}>
             <label>
-                Domaine:
+                <h4>Domaine:</h4>
                 <select name="domain" value={projectDetails.domain} onChange={handleChange}>
                     <option value="">Sélectionnez un domaine</option>
                     {dropdownOptions.domain.map(option => (
@@ -71,7 +71,7 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Complexité:
+                <h4>Complexité:</h4>
                 <select name="complexite" value={projectDetails.complexite} onChange={handleChange}>
                     <option value="">Sélectionnez la complexité</option>
                     {dropdownOptions.complexite.map(option => (
@@ -82,7 +82,7 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Budget:
+                <h4>Budget:</h4>
                 <select name="budget" value={projectDetails.budget} onChange={handleChange}>
                     <option value="">Sélectionnez le budget</option>
                     {dropdownOptions.budget.map(option => (
@@ -93,7 +93,7 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Taille de l'équipe:
+                <h4>Taille de l'équipe:</h4>
                 <select name="tailleEquipe" value={projectDetails.tailleEquipe} onChange={handleChange}>
                     <option value="">Sélectionnez la taille de l'équipe</option>
                     {dropdownOptions.tailleEquipe.map(option => (
@@ -104,7 +104,7 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Implication du client:
+                <h4>Implication du client:</h4>
                 <select name="implicationClient" value={projectDetails.implicationClient} onChange={handleChange}>
                     <option value="">Sélectionnez l'implication du client</option>
                     {dropdownOptions.implicationClient.map(option => (
@@ -115,7 +115,7 @@ export default function FormComponent() {
                 </select>
             </label>
             <label>
-                Culture d'entreprise:
+                <h4>Culture d'entreprise:</h4>
                 <select name="culture" value={projectDetails.culture} onChange={handleChange}>
                     <option value="">Sélectionnez la culture</option>
                     {dropdownOptions.culture.map(option => (

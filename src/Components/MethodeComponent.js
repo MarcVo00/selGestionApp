@@ -31,7 +31,10 @@ export default function MethodeComponent() {
 
     return (
         <div>
-            <h2>{methode.nom}</h2>
+            <h2>
+                {<img src={`${process.env.PUBLIC_URL}/${methode.img_url}`} alt="Method Icon" style={{marginRight: '30px', width: '50px', height: '50px', marginLeft: '10px'}} />}
+                {methode.nom}
+            </h2>
             <p>{methode.description}</p>
             <h3>Avantages</h3>
             <ul>
@@ -45,7 +48,7 @@ export default function MethodeComponent() {
                     <li key={index}>{desavantage}</li>
                 ))}
             </ul>
-            <h3>Outils noms</h3>
+            <h3>Outils</h3>
             <div className="outil-suggestions">
                 {methode.outils_nom.map((outil, index) => (
                     <div
@@ -53,9 +56,6 @@ export default function MethodeComponent() {
                         className="outil-container"
                         onClick={() => handleClick(outil)}
                     >
-                        <div className="outil-icon">
-                            <img src={`${process.env.PUBLIC_URL}/favicon.ico`} alt="Icon" />
-                        </div>
                         <strong>{outil}</strong>
                     </div>
                 ))}

@@ -12,7 +12,7 @@ export default function ResultComponent() {
         const fetchMethodology = async () => {
             try {
                 console.log('Fetching methodology data for id:', nomMethodology);
-                const response = await axios.get(`https://selgestionbackend.onrender.com/methodologies/${nomMethodology}`);
+                const response = await axios.get(`https://selgestionbackend.onrender.com/api/methodologies/${nomMethodology}`);
                 setMethodology(response.data);
             } catch (error) {
                 console.error('Error fetching methodology data:', error);

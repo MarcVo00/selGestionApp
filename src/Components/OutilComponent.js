@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import './styles.css';  // Import the CSS file
 
 export default function OutilComponent() {
     const { nomOutil } = useParams();
@@ -29,18 +30,25 @@ export default function OutilComponent() {
     }
 
     return (
-        <div>
+        <div className="outil-container">  {/* Apply the CSS class */}
             <h2>
                 {outil.nom}
-                {outil.payant && <img src={`${process.env.PUBLIC_URL}/money.png`} alt="Paid Icon" style={{ marginLeft: '10px', width: '20px', height: '20px' }} />}
+                {outil.payant && (
+                    <img
+                        src={`${process.env.PUBLIC_URL}/money.png`}
+                        alt="Paid Icon"
+                        style={{ marginLeft: '10px', width: '20px', height: '20px' }}
+                    />
+                )}
             </h2>
-            <p>{outil.descriptionLongue}</p>
+            <p className="compact-text">{outil.descriptionLongue}</p>
             <p>
                 <a
-                href="#"
-                onClick={() => handleUrlClick(outil.url)}
-                style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}>
-                {outil.url}
+                    href="#"
+                    onClick={() => handleUrlClick(outil.url)}
+                    style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
+                >
+                    {outil.url}
                 </a>
             </p>
         </div>

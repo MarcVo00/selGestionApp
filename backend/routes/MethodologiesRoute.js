@@ -17,6 +17,7 @@ router.get('/:nom', async (req, res) => {
         const methodology = await Methodology.findOne({ nom: req.params.nom })
         res.json(methodology);
     } catch (err) {
+        res.status(401).json({ error: err.message });
         res.status(500).json({ error: err.message });
     }
 });

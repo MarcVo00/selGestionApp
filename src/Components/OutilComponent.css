@@ -1,8 +1,8 @@
 .outil-container {
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 50px;
-    margin: 30px;
+    padding: 100px;
+    margin: 60px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
     text-align: center;
@@ -31,8 +31,8 @@
 }
 
 .compact-text {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;  /* Allow text to wrap */
+    overflow: visible;    /* Ensure no overflow is hidden */
+    text-overflow: clip;  /* Clip text to ensure it doesn't overflow */
     max-width: 100%;
 }

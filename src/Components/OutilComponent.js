@@ -10,7 +10,7 @@ export default function OutilComponent() {
         const fetchOutil = async () => {
             try {
                 console.log('Fetching outil data for id:', nomOutil);
-                const response = await axios.get(`http://localhost:5000/api/outils/${nomOutil}`);
+                const response = await axios.get(`https://selgestionbackend.onrender.com/api/outils/${nomOutil}`);
                 setOutil(response.data);
             } catch (error) {
                 console.error('Error fetching outil data:', error);

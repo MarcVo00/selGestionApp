@@ -12,7 +12,7 @@ export default function MethodeComponent() {
         const fetchMethode = async () => {
             try {
                 console.log('Fetching methode data for id:', nomMethode);
-                const response = await axios.get(`http://localhost:5000/api/methodes/${nomMethode}`);
+                const response = await axios.get(`https://selgestionbackend.onrender.com/api/methodes/${nomMethode}`);
                 setMethode(response.data);
             } catch (error) {
                 console.error('Error fetching methode data:', error);

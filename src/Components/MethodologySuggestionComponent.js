@@ -13,7 +13,7 @@ export default function MethodologieChoices() {
     React.useEffect(() => {
         const fetchMethodologies = async () => {
             try {
-                const response = await axios.get('/api/methodologies');
+                const response = await axios.get('https://selgestionbackend.onrender.com/api/methodologies');
                 const data = response.data;
 
                 // Filter methodologies based on form data

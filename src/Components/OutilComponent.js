@@ -37,10 +37,10 @@ export default function OutilComponent() {
             <p>{outil.descriptionLongue}</p>
             <p>
                 <a
-                    href="#"
-                    onClick={() => handleUrlClick(outil.url)}
-                    style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}>
-                    {outil.url}
+                href="#"
+                onClick={() => handleUrlClick(outil.url)}
+                style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}>
+                {outil.url}
                 </a>
             </p>
         </div>

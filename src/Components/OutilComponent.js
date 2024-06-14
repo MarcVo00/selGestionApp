@@ -30,7 +30,7 @@ export default function OutilComponent() {
     }
 
     return (
-        <div className="outil-container">  {/* Apply the CSS class */}
+        <div className="outil-container" onClick={() => handleUrlClick(outil.url)}>  {/* Apply the CSS class */}
             <h2>
                 {outil.nom}
                 {outil.payant && (
@@ -42,15 +42,6 @@ export default function OutilComponent() {
                 )}
             </h2>
             <p className="compact-text">{outil.descriptionLongue}</p>
-            <p>
-                <a
-                    href="#"
-                    onClick={() => handleUrlClick(outil.url)}
-                    style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
-                >
-                    {outil.url}
-                </a>
-            </p>
         </div>
     );
 }

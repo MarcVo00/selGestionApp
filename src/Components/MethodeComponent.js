@@ -53,7 +53,7 @@ export default function MethodeComponent() {
                 {methode.outils_nom.map((outil, index) => (
                     <div
                         key={index}
-                        className="outil-container"
+                        className="outil-container-suggestions"
                         onClick={() => handleClick(outil)}
                     >
                         <strong>{outil}</strong>

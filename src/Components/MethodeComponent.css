@@ -1,7 +1,4 @@
 .outil-suggestions {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     color: #333;
     margin-top: 20px;
 }
